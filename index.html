@@ -61,17 +61,32 @@
                         </ul>
                     </div>
                 </div>
-                <div class="navbar-center flex-2 flex justify-center items-center py-8 pl-40">
-                    <img src="./images/logo.png" alt="">
-                    <p class="font-extrabold text-3xl md: text-white">Fruit Burst</p>
+                <div class="navbar-center flex justify-start lg: flex-2 flex justify-center items-center py-8 pl-40">
+                    <div class="flex flex-start items-center">
+                        <img class="w-14" src="./images/logo.png" alt="">
+                        <h2 class="font-bold text-black lg:font-extrabold text-2xl lg:text-4xl text-white">Fruit Burst</h2>
+                    </div>
                 </div>
             </div>
 
-            <div class="navbar-end w-auto">
-                <a class="lg:bg-white rounded-3xl w-64 my-8 p-3 px-11 mr-10"> <i
-                        class="fa-solid fa-magnifying-glass"></i>Search here</a>
-            </div>
+            <div class="hidden lg:flex items-center">
+                <div class="relative flex-grow">
+                    <input type="text"
+                        class="border px-7 py-2 pl-8 mr-10 pr-40 rounded-full focus:outline-none focus:ring-2"
+                        placeholder="Search">
+                    <span class="absolute left-3 top-2 text-gray-400">
+                        <i class="fas fa-search"></i>
+                    </span>
+                
+                
+            
+
+                </div>
+
+
         </div>
+        </div>
+
         <!-- navbar ended -->
 
         <div class="carousel w-full">
@@ -341,9 +356,9 @@
                         <p>Banana</p>
                         <div class="rating">
                             <input type="radio" name="rating-3" class="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-3" class="mask mask-star-2 bg-orange-400"  />
                             <input type="radio" name="rating-3" class="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-3" class="mask mask-star-2 bg-orange-400"checked />
+                            <input type="radio" name="rating-3" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-3" class="mask mask-star-2 bg-orange-400" checked />
                             <input type="radio" name="rating-3" class="mask mask-star-2 bg-orange-400" />
                         </div>
                         <div class="card-actions">
@@ -355,14 +370,16 @@
                                 <div class="modal-box w-96">
                                     <img class="items-center pl-24" src="./images/fruit9.png" alt="">
                                     <h3 class="font-bold text-lg">Banana</h3>
-                                    <p class="py-4">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                                    <p class="py-4">Professional employees are there for you to pick the most amazing
+                                        and fresh fruits.</p>
                                     <div class="rating">
                                         <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                            checked />
                                         <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                         <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                         <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                      </div>
+                                    </div>
                                     <div class="text-center">
                                         <label for="my_modal_10" class="btn text-bg-color bg-white">Close</label>
                                         <label for="my_modal_10" class="btn text-white bg-bg-color">Buy Now</label>
@@ -456,7 +473,8 @@
             <!-- choose us section -->
             <div class="text-center pb-5">
                 <h1 class="text-5xl font-extrabold">Why Choose Us</h1>
-                <p class="mt-10">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br>
+                <p class="mt-10">Contrary to popular belief, is not simply random text. It has roots in a piece of
+                    classical <br>
                     Latin literature from 45 BC, making it over 2000 years old.</p>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-15 my-10">
@@ -479,7 +497,7 @@
                             <span><i class="fa-regular fa-heart"></i>
                                 <h2 class="text-2xl font-extrabold border-b">Fresh is Best</h2>
                             </span>
-                            
+
                             <p class="text-sm">Professional employees are there for you to pick the most amazing and
                                 fresh fruits.</p>
 
@@ -491,7 +509,7 @@
                         <div class="collapse-title text-xl font-medium">
                             <span><i class="fa-solid fa-gifts"></i>
                                 <h2 class="text-2xl font-extrabold border-b">Gift Certificates</h2>
-                                
+
                             </span>
                             <p class="text-sm">Professional employees are there for you to pick the most amazing and
                                 fresh fruits.</p>
@@ -501,8 +519,8 @@
                     </div>
                 </div>
                 <!-- image -->
-                <div>
-                    <img class="mb-30" src="./images/whychoose1.png" alt="">
+                <div class="">
+                    <img class="py-15" src="./images/whychoose1.png" alt="">
                 </div>
                 <div class="join join-vertical w-full">
                     <div class="collapse">
@@ -511,7 +529,7 @@
                             <span><i class="fa-solid fa-boxes-packing"></i>
                                 <h1 class="text-2xl font-extrabold border-b">Integrated Supplier</h1>
                             </span>
-                            
+
                             <p class="font-light text-sm">Professional employees are there for you to pick the most
                                 amazing and fresh fruits.</p>
                         </div>
@@ -522,8 +540,9 @@
                         <div class="collapse-title text-xl font-medium">
                             <span><i class="fa-solid fa-ice-cream"></i>
                                 <h2 class="text-2xl font-extrabold border-b">Sustainable Practice</h2>
-                            </span><hr>
-                            
+                            </span>
+                            <hr>
+
                             <p class="text-sm">Professional employees are there for you to pick the most amazing and
                                 fresh fruits.</p>
 
@@ -587,9 +606,9 @@
                             d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z">
                         </path>
                     </svg></a>
-                    <span class="w-9 h-9"><a href=""><i class="fa-brands fa-linkedin"></i></a></span>
-                   <span class="w-9 h-9"> <a href=""><i class="fa-brands fa-instagram"></i></a></span>
-                    <span class="w-9 h-9"><a href=""><i class="fa-brands fa-apple"></i></a></span>
+                <span class="w-9 h-9"><a href=""><i class="fa-brands fa-linkedin"></i></a></span>
+                <span class="w-9 h-9"> <a href=""><i class="fa-brands fa-instagram"></i></a></span>
+                <span class="w-9 h-9"><a href=""><i class="fa-brands fa-apple"></i></a></span>
             </div>
         </div>
 
